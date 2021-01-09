@@ -1,0 +1,814 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* color: #505050; */
+}
+
+
+/* header with navigation */
+#header-nav {
+    background-color: #ffffff;
+    padding: 18px;
+    border-bottom: 1px solid #ddd;
+}
+
+#header-nav .row {
+    display: flex;
+    align-items: center;
+}
+
+#header-nav .logo {
+    width: auto;
+    max-width: 130px;
+}
+
+#header-nav ul {
+    list-style: none;
+}
+
+#header-nav ul li {
+    display: inline;
+    padding: 10px 25px;
+}
+
+#header-nav a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #333333;
+}
+
+#header-nav .navlink:hover {
+    color: #fb6a66;
+}
+
+#header-nav .nav-btn {
+    padding: 10px 25px;
+    color: white;
+}
+
+#header-nav .mobile-view .menu {
+    height: 15px;
+}
+
+
+/* hero section */
+#hero-section {
+    background-position: bottom;
+    padding: 30px;
+}
+
+#hero-section .hero-container {
+    height: 570px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#hero-section .hero-container h1 {
+    font-size: 54px;
+    line-height: 1.07;
+    letter-spacing: -1.8px;
+    margin-bottom: 15px;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#hero-section .hero-container .value {
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    color: #000000;
+    margin: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;   
+}
+
+#hero-section .hero-container button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    height: 60px;
+    background-color: #ff4646;
+    color: white;
+    font-size: 18px;
+    padding: 18px 68px;
+    margin: 8px auto 23px auto;
+    letter-spacing: 1px;
+    box-shadow: 8px 11px 20px 0px rgba(0, 0, 0, 0.2);
+    border: none;
+    outline: none; 
+}
+
+#hero-section .hero-container button:hover {
+    background-color: #fb6a66;
+}
+
+#hero-section .hero-container .shipping-txt {
+    color: #696969;
+    font-size: 14px;
+    line-height: 1.6;
+    max-width: 406px;
+    margin: auto;
+    letter-spacing: 0.8px;
+    font-family: 'Muli', sans-serif; 
+}
+
+
+/* shipping section */
+#shipping-detail {
+    text-align: center;
+    padding: 15px;
+    font-size: 10px;
+    color: #929292;
+    border-bottom: 1px solid #eee;
+}
+
+#shipping-detail .detail {
+    overflow: hidden;
+}
+
+
+/* featured images section */
+#featured-images {
+    padding: 24px;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+}
+
+#featured-images img {
+    height: 25px;
+    width: auto;
+    margin: 5px 0;
+    padding: 0 10px;
+}
+
+
+/* how it works */
+#how-it-works {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+#how-it-works .card {
+    padding: 0 15px;
+}
+
+#how-it-works .card h3 {
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+#how-it-works .card p {
+    line-height: 1.5;
+    margin: 0 auto 30px;
+    max-width: 450px;
+}
+
+#how-it-works .card .card-img {
+    height: 140px;
+    width: 160px;
+    margin: auto;
+}
+
+#how-it-works .card-1 .card-img {
+    background-image: url(../images/how-it-works/ico-order-b.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 102%;
+}
+
+#how-it-works .card-2 .card-img {
+    background-image: url(../images/how-it-works/ico-customize-b.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 102%;
+}
+
+#how-it-works .card-3 .card-img {
+    background-image: url(../images/how-it-works/ico-delivered-b.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 102%;
+}
+
+#how-it-works .card-4 .card-img {
+    background-image: url(../images/how-it-works/ico-explore-b.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 102%;
+}
+
+
+/* banner */
+#banner {
+    background-color: #333333;
+    text-align: center;
+    padding: 25px;
+}
+
+#banner .banner-col {
+    padding: 0 15px;
+}
+
+#banner .banner-col .banner-item {
+    margin: 12px 0;
+}
+
+#banner p {
+    color: #ffffff;
+    line-height: 1.5;
+    font-size: 14.5px;
+    margin: 0;
+}
+
+#banner span {
+    padding: 0 4px;
+    font-style: italic;
+    font-size: 21px;
+    color: white;
+}
+
+#banner .small-banner-text {
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+
+#banner .free-shipping-text {
+    letter-spacing: 2.5px;
+    font-size: 16px;
+    margin-top: 13px;
+}
+
+#banner .free-shipping-subtitle {
+    font-size: 11px;
+}
+
+#banner .banner-btn {
+    padding: 15px 25px;
+    color: white;
+    font-size: 16px;
+    margin: 8px auto;
+    width: 100%;
+    max-width: 260px;
+    text-decoration: none;
+    display: block;
+}
+
+
+/* slideshow */
+#slideshow {
+    text-align: center;
+    padding-top: 30px;
+}
+
+#slideshow p {
+    font-size: 16px;
+    color: #999;
+    margin: 20px;
+}
+
+#slideshow .carousel-image {
+    position: relative;
+}
+
+#slideshow .carousel-image img {
+    width: 60%;
+}
+
+#slideshow .controls {
+    position: absolute;
+    bottom: 50%;
+    margin: 20px;
+}
+
+#slideshow .carousel-left-arrow {
+    left: 0;
+}
+
+#slideshow .carousel-left-arrow .arrow,
+#slideshow .carousel-right-arrow .arrow  {
+    height: 50px;
+    width: 50px;
+    background: #fb6a66;
+    border-radius: 50%;
+    color: white;
+    position: relative;
+}
+
+#slideshow .carousel-left-arrow .arrow .fas,
+#slideshow .carousel-right-arrow .arrow .fas {
+    position: absolute;
+    top: 35%;
+    bottom: 50%;
+    left: 0;
+    right: 0;
+}
+
+#slideshow .carousel-right-arrow {
+    right: 0;
+}
+
+#slideshow .carousel-title {
+    padding: 10px 3px;
+}
+
+#slideshow figcaption {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 33px;
+}
+
+#slideshow .brand-container {
+    background-color: #f2f2f2;
+    padding: 33px;
+    z-index: 1;
+    position: relative;
+}
+
+#slideshow .brand-container::before {
+    position: absolute;
+    background-color: #f2f2f2;
+    top: -15px;
+    left: 49%;
+    right: 49%;
+    height: 30px;
+    width: 30px;
+    content: '';
+    -ms-transform: rotate(45deg); /* IE 9 */
+    transform: rotate(45deg); /* Standard syntax */
+    z-index: 2;
+}
+
+#slideshow .brand-container img {
+    max-height: 18px;
+    width: auto;
+    padding: 0 15px;
+    margin: 5px 0;
+}
+
+
+
+/* get started */
+#get-started {
+    background-color: #fdf1eb;
+    padding: 80px 0;
+}
+
+#get-started .outer-white-container {
+    background-color: #f3f3f3;
+    padding: 5px;
+    border: 30px solid white;
+}
+
+#get-started .title-container {
+    padding: 10px;
+}
+
+#get-started .get-started-card {
+    background-color: #ffffff;
+    border: 1px solid #e5e5e5;
+    margin: 0 15px;
+    padding: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 15px;
+}
+
+#get-started .card-title {
+    border-bottom: 1px solid rgba(238, 238, 238, 0.9);
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+#get-started h4 {
+    margin: 10px 0;
+    color: #555555;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+
+/* choose a plan card - left side */
+#get-started .choose-plan-content {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(238, 238, 238, 0.9);
+    padding-bottom: 20px;
+}
+
+#get-started .choose-plan-content button {
+    width: 48%;
+    outline: none;
+    background-color: white;
+    border: #ccc 1px solid;
+    cursor: pointer;
+    padding: 10px;
+    text-align: left;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+#get-started .choose-plan-content button:focus {
+    border-top: 3px solid #fb6a66;
+    color: #fb6a66;
+}
+
+#get-started .choose-plan-content p {
+    margin: 3px 0;
+}
+
+#get-started .choose-plan-content .annual-btn .plan-cost {
+    color: #999;
+    text-decoration: line-through;
+}
+
+#get-started .choose-plan-content .plan-extra {
+    color: #999;
+    font-weight: 400;
+}
+
+#get-started .annual-btn .plan-cost {
+    color: #999;
+    font-weight: 400;
+}
+
+#get-started .annual-btn .plan-extra {
+    font-weight: 600;
+}
+
+/* account info card - left side */
+#get-started .account-info-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+#get-started .account-info-content input {
+    width: 100%;
+    padding: 14px 10px;
+    margin: 5px 0;
+    margin-bottom: 15px;
+    background-color: #ffffdc;
+    color: #555;
+    border: #eee 1px solid;
+    outline: none;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+#get-started .account-info-content label {
+    font-family: 'Muli', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+#get-started .account-info-content .email,
+#get-started .account-info-content .password {
+    width: 49%;
+    float: left;
+    text-align: left;
+    margin: auto;
+}
+
+/* shipping details card - left side */
+#get-started h4 small {
+    color: #666;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.2px;
+    font-weight: 400;
+}
+
+#get-started .shipping-details-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+#get-started .shipping-details-content input,
+#get-started .shipping-details-content select {
+    width: 100%;
+    padding: 14px 5px;
+    margin: 5px 0;
+    margin-bottom: 15px;
+    color: #555;
+    border: #eee 1px solid;
+    outline: none;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Muli', sans-serif;
+}
+
+#get-started .shipping-details-content label {
+    font-family: 'Muli', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+#get-started .shipping-details-content .country,
+#get-started .shipping-details-content .state,
+#get-started .shipping-details-content .zipcode {
+    width: 32%;
+    float: left;
+    text-align: left;
+    margin: auto;
+}
+
+#get-started .shipping-details-content .zipcode input {
+    background-color: #ffffdc;
+}
+
+
+/* order summary - right side */
+#get-started .get-started-right .row {
+    border-bottom: 1px solid rgba(238, 238, 238, 0.9);
+    padding: 10px 0;
+}
+
+#get-started .ss-left {
+    text-align: left;
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
+}
+
+#get-started .seasonal-subscription .ss-left a {
+    font-style: italic;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 700;
+    color: #333;
+}
+
+#get-started .ss-right {
+    text-align: right;
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
+}
+
+#get-started .ss-right .order-summary-price {
+    color: #fb6a66;
+}
+
+#get-started .promo-code .ss-left input {
+    width: calc(100% - 50px);
+    padding: 14px 10px;
+    margin: 5px 0;
+    margin-bottom: 15px;
+    color: #555;
+    border: #eee 1px solid;
+    outline: none;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+     box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+#get-started .promo-code .ss-left input:focus {
+    border: 2px solid #ff4646;
+}
+
+#get-started .promo-code .ss-left .promo-code-btn {
+    height: 47px;
+    width: 50px;
+    max-width: 50px;
+    margin-left: -4px;
+    border: none;
+    outline: none;
+}
+
+#get-started .promo-code .ss-left .fas {
+    color: white;
+}
+
+#get-started .promo-code-container {
+    height: 53px;
+}
+
+/* total */
+#get-started .total {
+    color: #333;
+}
+
+#get-started .total p {
+    font-weight: bold;
+}
+
+#get-started .get-started-right .total {
+    border-bottom: none;
+}
+
+#get-started .get-started-right .total .shipping-text {
+    padding-top: 40px;
+}
+
+#get-started .get-started-right .total .shipping-text p {
+    font-family: 'Muli', sans-serif;
+    font-size: 11px;
+    color: #878787;
+}
+
+#get-started .get-started-right .total .shipping-note {
+    margin-top: 15px
+}
+
+#get-started .get-started-right .total .shipping-note i {
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#get-started .get-started-right .total .shipping-note i a {
+    text-decoration: none;
+    color: #333;
+}
+
+#get-started .terms-and-conditions {
+    font-size: 13px;
+    background: transparent;
+    border: none;
+    padding: 5px;
+    font-family: 'Muli', sans-serif;
+    line-height: 1.3;
+}
+
+#get-started .terms-and-conditions a {
+    color: #333;
+}
+
+#get-started .terms-and-conditions #checkout {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: none;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 6px;
+    border: none;
+    background-color: #ffc539;
+    color: #000000;
+    outline: none;
+    padding: 12px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#get-started .terms-and-conditions #checkout img {
+    margin-left: 5px;
+}
+
+
+/* FOOTER */
+
+#footer-env {
+    padding: 35px;
+}
+
+#footer-env .footer-item {
+    margin: 5px 0;
+}
+
+#footer-env .footer-text {
+    float: left;
+}
+
+#footer-env .footer-image {
+    float: left; 
+    margin-right: 10px;
+}
+
+#footer-env h4 {
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    font-size: 18px;
+}
+
+#footer-env p {
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 13px;
+}
+
+#footer-env input {
+    padding: 12px 15px;
+    height: 48px;
+    width: calc(80% - 50px);
+    border: 1px solid #ccc;
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+    font-size: 15px;
+}
+
+#footer-env .input-email-btn {
+    width: 48px;
+    height: 48px;
+    font-size: 14px;
+    border: solid 1px #fb6a66;
+    color: #fb6a66;
+    display: inline-block;
+    background-color: white;
+    font-family: 'Muli', sans-serif;
+    outline: none;
+}
+
+#footer-env .input-email p {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 1.25;
+    letter-spacing: normal;
+    max-width: 380px;
+    margin: 10px 0;
+}
+
+#footer-env .support h4,
+#footer-env .about h4,
+#footer-env .socials h4 {
+    font-size: 16px;
+    margin-bottom: 18px;
+}
+
+#footer-env .support ul,
+#footer-env .about ul {
+    list-style: none;
+    padding: 0;
+}
+
+#footer-env .support ul li,
+#footer-env .about ul li {
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.6;
+    line-height: 1.71;
+}
+
+#footer-env .support ul li a,
+#footer-env .about ul li a {
+    font-family: 'Muli', sans-serif;
+    text-decoration: none;
+    color: #333;
+}
+
+#footer-env .support ul li a:hover,
+#footer-env .about ul li a:hover {
+    text-decoration: underline;
+    color: #dd1f26;
+}
+
+#footer-env .socials {
+    text-align: center;
+}
+
+#footer-env .socials ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#footer-env .socials ul li {
+    display: inline;
+    padding: 5px;
+}
+
+#footer-env .socials ul li img {
+    height: 30px;
+    width: 30px;
+    transform: scale(1.8);
+}
+
+#footer-env .socials ul li img:hover {
+    opacity: 0.8;
+}
+
+/* rights reserved footer */
+
+#rights-reserved {
+    background: #e8e8e8;
+    padding:20px;
+    text-align: center;
+    border-bottom: 20px solid white;
+}
+
+#rights-reserved ul {
+    list-style: none;
+}
+
+#rights-reserved ul li {
+    display: inline;
+    padding: 0 10px;
+}
+
+#rights-reserved ul li a {
+    font-family: 'Muli', sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    color: #afafaf;
+}

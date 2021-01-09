@@ -1,0 +1,129 @@
+
+
+@media (max-width: 768.8px) {
+    #header-nav .mobile-view {
+        display: block;
+    }
+
+    #header-nav .browser-view {
+        display: none;
+    }
+
+    #header-nav .logo {
+        width: auto;
+        max-width: 100px;
+    }
+
+    #header-nav {
+        padding: 15px;
+    }
+}
+
+@media (min-width: 769px) {
+    #header-nav .mobile-view {
+        display: none;
+    }
+
+    #header-nav .browser-view {
+        display: block;
+    }
+}
+
+@media (max-width: 1199px) {
+    #featured-images {
+        padding: 5px 0;
+    }
+
+    #footer-env {
+        text-align: center;
+    }
+
+    #footer-env .footer-text {
+        float: none;
+    }
+    
+    #footer-env .footer-image {
+        float: none; 
+        margin-right: 0;
+    }
+
+    #footer-env .input-email p {
+        margin: 5px auto;
+    }
+
+    #footer-env .footer-item {
+        margin: 15px 0;
+    }
+    
+
+}
+
+@media (min-width: 481px) {
+    #hero-section {
+        background: url(../images/hero.jpeg);
+        background-size: cover;
+        min-height: 570px;
+    }
+}
+
+@media (max-width: 480.8px) {
+    #hero-section {
+        background: url(../images/hero-mobile.jpeg);
+        background-size: cover;
+        min-height: 650px !important;
+        background-position: top;
+    }
+
+    #get-started .outer-white-container {
+        border: 10px solid white;
+    }
+}
+
+@media (max-width: 990px) {
+    #hero-section {
+        min-height: 500px;
+    }
+}
+
+@media (max-width: 768px) {
+    #hero-section {
+        min-height: 360px;
+    }
+
+    #how-it-works .container {
+        max-width: 750px;
+    }
+
+    #get-started .account-info-content .email,
+    #get-started .account-info-content .password,
+    #get-started .shipping-details-content .country,
+    #get-started .shipping-details-content .state,
+    #get-started .shipping-details-content .zipcode  {
+        width: 100%;
+        float: none;
+        text-align: left;
+        margin: auto;
+    }
+
+    #get-started .account-info-content,
+    #get-started .shipping-details-content {
+        display: block;
+    }
+
+    #hero-section .hero-container h1 {
+        font-size: 36px;
+    }
+    
+}
+
+@media (max-width: 991px) {
+    #how-it-works p {
+        font-size: 12px;
+    }
+
+    #banner .banner-col {
+        float: none;
+        margin: auto;
+        width: 100%;
+    }
+}

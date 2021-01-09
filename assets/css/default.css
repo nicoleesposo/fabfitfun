@@ -1,0 +1,63 @@
+
+/* FONT FAMILY */
+
+.fontMontserrat400 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.fontMontserrat600 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.fontMuli400 {
+    font-family: 'Muli', sans-serif;
+    font-weight: 400;
+}
+
+.fontMuli500 {
+    font-family: 'Muli', sans-serif;
+    font-weight: 500;
+}
+
+
+/* TEXT ALIGN */
+.textCenter {
+    text-align: center;
+}
+
+.textLeft {
+    text-align: left;
+}
+
+.textRight {
+    text-align: right;
+}
+
+
+/* BUTTON */
+
+.btnPrimaryLight {
+    background-color: #fb6a66;
+    border-color: #fb6a66;
+}
+
+.btnPrimaryLight:hover {
+    background: #ff4646;
+}
+
+
+
+/* HEADINGS */
+h2 {
+    letter-spacing: 2px;
+    color: #333;
+    margin: 20px 10px;
+}
+
+/* CLEARFIX */
+
+.clearfix {
+    clear: both;
+}
